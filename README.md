@@ -1,2 +1,2 @@
 # CFD-Preprocessor
-The code comprises of a general preprocessor for generating an O-type mesh grid around a NACA airfoil
+The code comprises of a general preprocessor for generating an O-type mesh grid around a NACA airfoil, The resultant finite volume mesh can be used to solve for complex flow conditions using Navier stokes and potential field theories. The steps can be described as follows, a NACA 4 digit airfoil is first created using the already established equations. A simple computational domain is created with Nxi and Neta points along the boundaries such that it creates a simple rectangle.
